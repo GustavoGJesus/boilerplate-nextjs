@@ -2,7 +2,7 @@ const Main = () => {
   return (
     <>
       <main>
-        <h1>React avançado</h1>
+        <h1>Nextjs Boilerplate</h1>
       </main>
     </>
   );
