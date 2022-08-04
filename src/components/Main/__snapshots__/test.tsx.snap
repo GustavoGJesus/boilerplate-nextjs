@@ -1,27 +1,72 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  background-color: #ffff;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.c4 {
+  width: min(80rem,100%);
+  border-radius: 20px;
+  margin-top: 3rem;
+}
+
 <main
-  class="styles__Wrapper-sc-17qt5kd-0 jNXOtT"
+  class="c0"
 >
   <img
     alt="logo text nextjs"
-    class="styles__Logo-sc-17qt5kd-1 gULaGw"
+    class="c1"
     src="/img/logo.png"
   />
   <h1
-    class="styles__Title-sc-17qt5kd-2 jtrOUf"
+    class="c2"
   >
     NextJS Boilerplate
   </h1>
   <h2
-    class="styles__Description-sc-17qt5kd-3 jVJwQg"
+    class="c3"
   >
     Typescript, ReactJS, NextJS, Jest, Eslint, Prettier, Husky and Styled Componets
   </h2>
   <img
     alt="people development software"
-    class="styles__Illustration-sc-17qt5kd-4 gNvdRw"
+    class="c4"
     src="/img/illustration.gif"
   />
 </main>
