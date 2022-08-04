@@ -1,9 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
-    React avançado
+<main
+  class="styles__Wrapper-sc-17qt5kd-0 jNXOtT"
+>
+  <img
+    alt="logo text nextjs"
+    class="styles__Logo-sc-17qt5kd-1 gULaGw"
+    src="/img/logo.png"
+  />
+  <h1
+    class="styles__Title-sc-17qt5kd-2 jtrOUf"
+  >
+    NextJS Boilerplate
   </h1>
+  <h2
+    class="styles__Description-sc-17qt5kd-3 jVJwQg"
+  >
+    Typescript, ReactJS, NextJS, Jest, Eslint, Prettier, Husky and Styled Componets
+  </h2>
+  <img
+    alt="people development software"
+    class="styles__Illustration-sc-17qt5kd-4 gNvdRw"
+    src="/img/illustration.gif"
+  />
 </main>
 `;
